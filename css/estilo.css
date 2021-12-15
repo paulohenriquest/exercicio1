@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(238, 214, 171);
+    color: white;
+    padding: 10px 30px;
+    height: 50vh;
+    font-family: arial;
+}
+
+.text-esquerda {
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+}
+
+.cabecalho {
+    font-size: 1.8rem;
+    padding: 10px;
+    margin: 0;
+}
+.cabecalho ul {
+    background-color: rgb(102, 74, 74);
+    opacity: 0.6;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.cabecalho a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.menu {
+    float: right;
+    width: auto;
+}
+.menu li {
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    margin-right: 13px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: -8px;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+.menu li:hover {
+    transition: 0.7s all;
+    background-color: white;
+    color: black;
+}
+
+.cabecalho li {
+    list-style: none;
+    list-style-type: none;
+    padding: 4px;
+    display: inline-block;
+    color: white;
+}
+
+.contato {
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px black;
+    /* border: 2px solid black; */
+    margin: 20px;
+    position: absolute;
+    width: 350px;
+    top: 155px;
+    right: 100px;
+    text-align: center;
+    font-size: 1.9rem;
+    background: #00000091;
+}
+
+.main h3, .main p{
+    font-size: 2.0rem;
+    text-align: left;
+    margin: 17px 10px 19px -234px;
+}.main h3 {
+    font-size: 3.0rem;
+}
+
+.main {
+    display: inline-block;
+}
+
+.imagem {
+    max-width: 600px;
+    border-radius: 50px;
+    float: right;
+}
+
